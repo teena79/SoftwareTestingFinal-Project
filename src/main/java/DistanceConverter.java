@@ -4,5 +4,5 @@ public class DistanceConverter {
     public int kms_to_mm(int kms) { return kms*1000000; }
     public double kms_to_miles(int kms) { return kms*0.621; }
     public double kms_to_foot(int kms) { return kms*3280.840; }
-    public double kms_to_inch(int kms) { return kms*39370.1; }
+    public double kms_to_inches(int kms) { return kms*39370.1; }
 }
