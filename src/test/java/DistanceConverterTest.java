@@ -23,4 +23,19 @@ public class DistanceConverterTest {
         DistanceConverter a = new DistanceConverter();
         assertEquals(50000,a.kms_to_meters(50));
     }
+    @Test
+    public void kms_to_miles_test(){
+        DistanceConverter a = new DistanceConverter();
+        assertEquals(6.21,a.kms_to_miles(10),0.0f);
+    }
+    @Test
+    public void kms_to_foot_test(){
+        DistanceConverter a = new DistanceConverter();
+        assertEquals(32808.4,a.kms_to_foot(10),0.0f);
+    }
+    @Test
+    public void kms_to_inch_test(){
+        DistanceConverter a = new DistanceConverter();
+        assertEquals(393701,a.kms_to_inch(10),0.0f);
+    }
 }
