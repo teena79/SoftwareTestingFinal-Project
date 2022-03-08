@@ -39,8 +39,8 @@ public class DistanceConverterTest {
         assertEquals(393701,a.kms_to_inch(10),0.0f);
     }
     @Test
-    public void kms_to_inch_test(){
-        DistanceConverter a = new DistanceConverter();
-        assertEquals(185791,a.kms_to_inch(10),0.0f);
+    public void kms_to_inch_test1(){
+        DistanceConverter b = new DistanceConverter();
+        assertEquals(185791,b.kms_to_inch(10),0.0f);
     }
 }
